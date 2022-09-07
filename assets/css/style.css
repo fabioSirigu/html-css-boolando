@@ -24,11 +24,15 @@ body {
 header {
       background-color: var(--bg_primary);
       box-shadow: 0px 10px 15px gray;
-      /* position: fixed;
+      width: 100%;
+      position: fixed;
       top: 0;
-      z-index: 100; */
+      z-index: 100;
 }
 
+main {
+      margin-top: 5rem;
+}
 a {
       text-decoration: none;
 }
@@ -124,6 +128,7 @@ header .row {
       margin: 2rem auto;
 }
 
+
 .sale,
 .eco {
       font-size: 0.8rem;
@@ -144,6 +149,11 @@ header .row {
 
 .col-4:hover .heart {
       visibility: visible;
+}
+
+.heart:hover {
+      color: var(--bg_important);
+      cursor: pointer;
 }
 
 .info_product {
@@ -168,6 +178,75 @@ header .row {
 
 .price_del {
       text-decoration: line-through;
+}
+
+.card img {
+      visibility: hidden;
+}
+
+.card_1{
+      background-image: url(../img/1.webp);
+      background-size: cover;
+}
+
+.card_1:hover {
+      background-image: url(../img/1b.webp);
+      cursor: pointer;
+}
+
+.card_2{
+      background-image: url(../img/2.webp);
+      background-size: cover;
+}
+
+.card_2:hover {
+      background-image: url(../img/2b.webp);
+      cursor: pointer;
+
+}
+
+.card_3{
+      background-image: url(../img/3.webp);
+      background-size: cover;
+}
+
+.card_3:hover {
+      background-image: url(../img/3b.webp);
+      cursor: pointer;
+
+}
+
+.card_4{
+      background-image: url(../img/4.webp);
+      background-size: cover;
+}
+
+.card_4:hover {
+      background-image: url(../img/4b.webp);
+      cursor: pointer;
+
+}
+
+.card_5{
+      background-image: url(../img/5.webp);
+      background-size: cover;
+}
+
+.card_5:hover {
+      background-image: url(../img/5b.webp);
+      cursor: pointer;
+
+}
+
+.card_6{
+      background-image: url(../img/6.webp);
+      background-size: cover;
+}
+
+.card_6:hover {
+      background-image: url(../img/6b.webp);
+      cursor: pointer;
+
 }
 /* #endregion main */
 
