@@ -1,0 +1,33 @@
+/* #region Common */
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+/* #endregion Common */
+
+/* #region utilities */
+
+:root {
+      --bg_primary: #FF6900;
+      --bg_lighter: #008000;
+      --bg_darkness: #1A1A1A;
+      --bg_important: #FF0000;
+      --bg_light: #FFFFFF;
+}
+
+body {
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+      background-color: var(--bg_primary);
+}
+/* #endregion utilities */
+
+/* #region header */
+
+
+
+/* #endregion header */
