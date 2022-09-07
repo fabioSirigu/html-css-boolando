@@ -79,7 +79,9 @@ img {
       background-color: var(--bg_lighter);
 }
 
-
+h2 {
+      text-transform: uppercase;
+}
 /* #endregion utilities */
 
 /* #region header */
