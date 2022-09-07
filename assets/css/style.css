@@ -180,74 +180,19 @@ header .row {
       text-decoration: line-through;
 }
 
-.card img {
-      visibility: hidden;
+.card_1 {
+      display: none;
 }
 
-.card_1{
-      background-image: url(../img/1.webp);
-      background-size: cover;
-}
-
-.card_1:hover {
-      background-image: url(../img/1b.webp);
+.card:hover .card_1 {
+      display: inline-block;
       cursor: pointer;
 }
 
-.card_2{
-      background-image: url(../img/2.webp);
-      background-size: cover;
+.card:hover .card_2 {
+      display: none;
 }
 
-.card_2:hover {
-      background-image: url(../img/2b.webp);
-      cursor: pointer;
-
-}
-
-.card_3{
-      background-image: url(../img/3.webp);
-      background-size: cover;
-}
-
-.card_3:hover {
-      background-image: url(../img/3b.webp);
-      cursor: pointer;
-
-}
-
-.card_4{
-      background-image: url(../img/4.webp);
-      background-size: cover;
-}
-
-.card_4:hover {
-      background-image: url(../img/4b.webp);
-      cursor: pointer;
-
-}
-
-.card_5{
-      background-image: url(../img/5.webp);
-      background-size: cover;
-}
-
-.card_5:hover {
-      background-image: url(../img/5b.webp);
-      cursor: pointer;
-
-}
-
-.card_6{
-      background-image: url(../img/6.webp);
-      background-size: cover;
-}
-
-.card_6:hover {
-      background-image: url(../img/6b.webp);
-      cursor: pointer;
-
-}
 /* #endregion main */
 
 /* #region footer */
