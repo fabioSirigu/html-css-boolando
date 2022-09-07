@@ -170,3 +170,44 @@ header .row {
       text-decoration: line-through;
 }
 /* #endregion main */
+
+/* #region footer */
+
+footer {
+      background-color: var(--bg_darkness);
+      
+}
+
+.credit {
+      width: 80%;
+      margin:auto;
+      color: var(--bg_light);
+      content: "";
+      display: table;
+      clear: both;
+}
+
+.legal_info {
+      float: left;
+      padding: 2rem 0;
+}
+
+.legal_info ul {
+      display: flex;
+      padding-top: 0.6rem;
+}
+.legal_info li {
+      padding-right: 0.4rem;
+      list-style: none;
+}
+
+.social {
+      float: right;
+      text-align: center;
+      padding: 2rem 0;
+}
+
+.social_icon > i {
+      padding: 0.6rem;
+}
+/* #endregion footer */
