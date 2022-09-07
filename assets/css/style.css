@@ -24,8 +24,9 @@ body {
 header {
       background-color: var(--bg_primary);
       box-shadow: 0px 10px 15px gray;
-      position: fixed;
-      z-index: 100;
+      /* position: fixed;
+      top: 0;
+      z-index: 100; */
 }
 
 a {
@@ -40,6 +41,8 @@ a {
 
 .col-4 {
       width: calc(100% / 12 * 4);
+      position: relative;
+      padding: 1rem;
 }
 
 .center {
@@ -49,6 +52,34 @@ a {
 .right {
       text-align: right;
 }
+
+.row {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.container {
+      margin: 50px 0;
+}
+
+img {
+   width: 100%;   
+}
+
+.heart,
+.info_product {
+      position: absolute;
+}
+
+.bg-imp {
+      background-color: var(--bg_important);
+}
+
+.bg-green {
+      background-color: var(--bg_lighter);
+}
+
+
 /* #endregion utilities */
 
 /* #region header */
@@ -56,7 +87,6 @@ a {
 .menu {
       width: 80%;
       margin: auto;
-      padding: 2rem 0;
       font-weight: bold;
 }
 
@@ -84,3 +114,57 @@ header .row {
 }
 
 /* #endregion header */
+
+/* #region main */
+
+.container {
+      width: 80%;
+      margin: 2rem auto;
+}
+
+.sale,
+.eco {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: white;
+      padding: 0.2rem 0.5rem;
+      margin-right:0.2rem;
+}
+
+.heart {
+      font-size: 2rem;
+      padding: 1rem;
+      background-color: var(--bg_light);
+      right: 1rem;
+      top: 2rem;
+      visibility: hidden;
+}
+
+.col-4:hover .heart {
+      visibility: visible;
+}
+
+.info_product {
+      left: 1rem;
+      bottom: 8rem;
+}
+
+.info h5 {
+      color: gray;
+}
+
+.price,
+.price_del {
+      font-size: 0.8rem;
+}
+
+.price {
+      color: var(--bg_important);
+      font-weight: 800;
+      
+}
+
+.price_del {
+      text-decoration: line-through;
+}
+/* #endregion main */
